@@ -14,11 +14,6 @@ public class Purchase {
 	}
 	
 	public static void main(String args[]) {
-		Purchase myPurchase = new Purchase(80000, 40000, 24, 0.15);
-		double m = myPurchase.totalInterest();
-		double n = myPurchase.monthlyPayment();
-		System.out.println(m + "\n" + n);
-		
 	}
 	
 	public double monthlyPayment() {
